@@ -2,7 +2,10 @@
 
 A full-stack application for tracking heart rate measurements. Users can log in, view their heart rate data visualized in a chart, and receive real-time updates of their measurements.
 
-<img width="1200" alt="heart_rate" src="https://github.com/user-attachments/assets/c95bce59-7597-4344-bac6-e9dc61f5ee9f" />
+[Live Preview](https://heart-rate-app-keremilhan.vercel.app)
+
+<img width="1701" alt="heart-rate" src="https://github.com/user-attachments/assets/5bbbbec4-a134-4f95-afe4-0c32ba44d35f" />
+
 
 ## Features
 
