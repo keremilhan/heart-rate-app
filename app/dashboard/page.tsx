@@ -47,10 +47,10 @@ export default function Dashboard() {
                 }
             } catch (error) {
                 if (error instanceof Error) {
-                    if (error.message.includes(ERROR_MESSAGES.unauthorized) && authFlag) {
+                    if (error.message.includes(ERROR_MESSAGES.unauthorized)) {
                         setAuthFlag(false);
-                        customToast(error.message, 'error');
                     }
+                    customToast(error.message, 'error');
                 } else {
                     customToast(ERROR_MESSAGES.unexpected, 'error');
                 }
